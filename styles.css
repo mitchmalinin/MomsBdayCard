@@ -38,7 +38,8 @@ body {
   z-index: 30;
 }
 
-.card:hover {
+.card:hover,
+.card:active {
   transform: rotateY(180deg);
 }
 
